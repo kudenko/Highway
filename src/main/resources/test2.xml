@@ -1,0 +1,8 @@
+<suite name="MyAwsomeSuite" parallel="methods">
+    <test name="MyFirstTest">
+        <classes>
+            <class name="lesson8.TestParallel">
+            </class>
+        </classes>
+    </test>
+</suite>

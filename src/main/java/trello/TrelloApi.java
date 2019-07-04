@@ -32,7 +32,7 @@ public class TrelloApi {
 
         Type type = new TypeToken<List<TrelloList>>(){}.getType();
         List<TrelloList> trelloLists = gson.fromJson(response, type);
-
+        System.out.println(response);
         return trelloLists;
 
         //'https://api.trello.com/1/boards/id/lists?cards=none&card_fields=all&filter=open&fields=all'
